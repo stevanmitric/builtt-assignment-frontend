@@ -38,3 +38,11 @@ This project is a Web shop app built with React, React Router, and Redux. The ap
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
    ```
+
+## Install dependencies
+
+- npm install
+
+## Run app
+
+- npm run dev
