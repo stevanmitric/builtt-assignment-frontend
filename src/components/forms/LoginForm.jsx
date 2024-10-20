@@ -1,5 +1,5 @@
 import { notification } from 'antd';
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 
 export const LoginForm = () => {
@@ -9,8 +9,6 @@ export const LoginForm = () => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
-
-    console.log('test', import.meta.env.VITE_APP_DEFAULT_USERNAME);
 
     if (
       email === import.meta.env.VITE_APP_DEFAULT_USERNAME &&
@@ -25,8 +23,8 @@ export const LoginForm = () => {
       navigate('/shop');
     } else {
       notification.error({
-        message: 'Login Failed',
-        description: 'Incorrect email or password.',
+        message: 'Logovanje Neuspešno',
+        description: 'Pogrešna šifra ili email.',
         placement: 'topRight',
         duration: 2,
       });

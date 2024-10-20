@@ -1,5 +1,5 @@
 import { notification } from 'antd';
-import React from 'react';
+
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { CartItem } from '../../components/CartItem';
@@ -69,7 +69,7 @@ export const Cart = () => {
               <p className='small-font'>Cena je sa uključenim PDV-om</p>
             </div>
             <button onClick={handleOrder} className='pay-btn'>
-              Prijavi se za brže plaćanje
+              Potvrdi porudžbinu
             </button>
           </div>
         </div>

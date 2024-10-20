@@ -35,8 +35,8 @@ This project is a Web shop app built with React, React Router, and Redux. The ap
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/stevanmitric/builtt-assignment-frontend.git
+   cd builtt-assignment-frontend
    ```
 
 ## Install dependencies

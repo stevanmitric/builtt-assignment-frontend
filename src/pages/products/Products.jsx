@@ -1,4 +1,3 @@
-import React from 'react';
 import { getAllProducts } from '../../api/products';
 import { ProductCard } from '../../components/ProductCard';
 export const Products = () => {
