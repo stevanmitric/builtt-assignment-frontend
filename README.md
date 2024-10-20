@@ -46,3 +46,8 @@ This project is a Web shop app built with React, React Router, and Redux. The ap
 ## Run app
 
 - npm run dev
+
+## Login credentials
+
+- email: test.user@gmail.com
+- password: 123456
